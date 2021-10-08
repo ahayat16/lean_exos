@@ -1,0 +1,10 @@
+variables l:ℕ → pnat
+#check n
+#check range n
+#check ((l n):ℝ)/ (l 1)
+theorem IMO_2018_Pb_5 {N:ℕ}(a:ℕ →pnat)(hn:N>1)
+(h:∀(n:ℕ),(((a n):ℝ) /(a 1)+ ∑ i in range 1 n, (a i)/(a i+1))∈ℕ):∃ (M:ℕ), (m:ℕ)≥M → a m = a (m+1):=
+begin
+  sorry
+end
+
